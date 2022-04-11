@@ -3,7 +3,7 @@
 
 const uint8_t vs1003_chunk_size = 32;
 
-
+#define min(a,b) (((a)<(b))?(a):(b))
 #define VS_WRITE_COMMAND 0x02
 #define VS_READ_COMMAND 0x03
 
